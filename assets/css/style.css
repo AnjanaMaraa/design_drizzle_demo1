@@ -281,9 +281,15 @@ section[id], [id] { scroll-margin-top: calc(var(--header-h) + 18px); }
 }
 
 .wordmark { display: inline-flex; align-items: center; gap: .7rem; }
-.wordmark-mark { width: 38px; height: 38px; display: block; color: var(--porcelain); }
-.wordmark-mark svg { width: 100%; height: 100%; }
-.wordmark-mark rect { stroke: var(--beige); }
+.wordmark-mark {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: var(--porcelain);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.wordmark-mark img { width: 100%; height: 100%; display: block; object-fit: cover; }
 .wordmark-text { display: flex; flex-direction: column; line-height: 1; }
 
 .wordmark-name {
