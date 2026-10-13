@@ -22,17 +22,17 @@ const SITE_CONFIG = {
 
     website: "https://digimaraa.com",
 
-    /* Prefilled enquiry messages, one per service context. */
+    /* Prefilled enquiry messages — one per confirmed service. */
     messages: {
         start: "Hi DigiMaraa Design Studio, I would like to start a design project. Please share the details.",
-        wedding: "Hi DigiMaraa Design Studio, I would like to enquire about wedding invitation design.",
-        digital: "Hi DigiMaraa Design Studio, I would like to enquire about digital invitation design.",
-        logo: "Hi DigiMaraa Design Studio, I would like to enquire about logo design.",
-        social: "Hi DigiMaraa Design Studio, I would like to enquire about social media design.",
-        event: "Hi DigiMaraa Design Studio, I would like to enquire about event invitation design.",
-        savethedate: "Hi DigiMaraa Design Studio, I would like to enquire about save-the-date designs.",
-        branding: "Hi DigiMaraa Design Studio, I would like to enquire about branding and business creatives.",
-        custom: "Hi DigiMaraa Design Studio, I would like to discuss a custom design project."
+        invitations: "Hi DigiMaraa Design Studio, I'm interested in Invitations & E-Invites. I'd like to discuss my invitation requirements.",
+        digital: "Hi DigiMaraa Design Studio, I'm interested in Digital Invitations. I'd like to know more about animated and video invitation designs.",
+        logo: "Hi DigiMaraa Design Studio, I'm interested in Logo Design. I'd like to discuss a logo for my business.",
+        social: "Hi DigiMaraa Design Studio, I'm interested in Social Media Designs. Please share more details about your design services.",
+        print: "Hi DigiMaraa Design Studio, I'm interested in Print & Event Designs. I'd like to discuss my printing and event design requirements.",
+        birthday: "Hi DigiMaraa Design Studio, I'm interested in Birthday & Milestone Designs. I'd like to discuss a customized design.",
+        products: "Hi DigiMaraa Design Studio, I'm interested in Customized Event Products. I'd like to discuss a personalized design for my event.",
+        custom: "Hi DigiMaraa Design Studio, I have a custom design idea I'd like to discuss. Could you help me with it?"
     }
 };
 
